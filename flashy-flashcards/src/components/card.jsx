@@ -1,7 +1,7 @@
 import React from "react";
 import { use,useState } from "react";
 
-const card = () => {
+const Card = (props) => {
     // const MyFlashcard = document.getElementById("CARD");
 
     const [side, setSide] = useState("back");
@@ -19,12 +19,12 @@ const card = () => {
         <div className="flashcard-container"> 
         <div className="flashcard" id="CARD" onClick={Handleflip} >
         {/* <div className="flashcard"  > */}
-            <div className="card-front">THis is the flash Card front</div>
-            <div className="card-back">THis is the flash Card back</div>
+            <div className="card-front">{props.question}</div>
+            <div className="card-back">{props.answer}</div>
         </div>
         </div>
 
     )
 }
 
-export default card
+export default {Card, }
