@@ -111,7 +111,7 @@ function App() {
 
       <div className="header">
         {/* <h4>Flashy</h4> */}
-        <img src="./src/assets/flashy.png" alt="Flashy" className='logo'/>
+        <img src="/src/assets/flashy.png" alt="Flashy" className='logo'/>
       </div>
       <div className="heading">
         <h1>Learn Japanese</h1>
