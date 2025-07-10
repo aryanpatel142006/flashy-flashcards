@@ -1,0 +1,188 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: rgb( 217, 254, 254); */
+
+}
+.App{
+  /* background-color: red; */
+}
+
+.logo {
+  /* box-shadow: drop-shadow(5px 5px); */
+  height: 15em;
+  border-radius: 10%;
+  position: relative;
+  /* bottom: 5px;
+  left: 10px; */
+}
+
+/* .flash-card {
+  padding: 2em;
+  background-color: grey;
+  border-radius: 1em;
+} */
+
+.main {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 1em;
+  /* background-color: black; */
+}
+
+.flashcard-container {
+  /* justify-self: first baseline; */
+  background-color: transparent;
+  padding: 2em;
+  width: 300px;
+  height: 200px;
+  border: 5px solid #f1f1f1;
+  border-radius: 1em;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flashcard {
+  background-color: peachpuff;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flashcard-container:hover,.flashcard:hover,.card-front:hover, .card-back:hover{
+  cursor:pointer;
+}
+
+/* .flashcard-container:hover .flashcard {
+  transform: rotateY(180deg);
+} */
+
+.card-front, .card-back{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  font-weight: bolder;
+  font-size: 1.15em;
+}
+
+.card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.front {
+  transform: rotateY(0deg);
+  transition: none;
+}
+
+.back {
+  transform: rotateY(180deg);
+  
+}
+
+.test{
+  background-color: red;
+}
+
+
+
+/*  */
+
+.theme{
+  height: 2em ;
+  /* width: auto; */
+  display: flex;
+  flex-direction: row-reverse;
+  /* background-color: peachpuff; */
+  align-items: end;
+  gap: 1em;
+}
+
+.theme_icon {
+
+  height: 2em;
+
+}
+
+.theme h4 {
+  align-self: center;
+  font-weight:900;
+  color: #102552;
+}
+
+/*  */
+
+.dark-theme{
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  .theme h4{
+    color:#63b9eb;
+  }
+
+  .flashcard-container {
+    border-color: #add3e6;
+  }
+
+}
+
+
+.light-theme{
+  /* color: #213547; */
+  .flashcard-container {
+    border-color: #63b9eb;
+  }
+
+  background-color: #ffffff;
+  .theme h4 {
+  color: #d8b77f;
+}
+}
+
+.blue-theme{
+
+}
+
+h3 {
+  position:relative;
+  bottom: 15px;
+}
+
+.flashcardType {
+  /* display: flex; */
+  /* gap: 2em; */
+  /* justify-content: center; */
+}
+
+#test {
+  background-color: red;
+}
+
+#Test {
+  background-color: black;
+}
+
+.myButton.active{
+  background-color: #63b9eb;
+  border-color: #ffffff;
+}
