@@ -5,13 +5,20 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  /* background-color: #242424; */
+  /* background-color: #E3FEFE; */
+  /* background-color: rgb(227, 254, 254,100); */
+  background-image:linear-gradient(to right, grey 1px, transparent 1px),linear-gradient(to bottom, grey 1px, transparent 1px);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* * {
+  background-color: rgb(227, 254, 254,100);
+} */
+
+
 
 a {
   font-weight: 500;
@@ -48,21 +55,40 @@ button {
 }
 button:hover {
   border-color: #646cff;
+  border-color: rgb(120, 183, 233);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark ) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+     background-color: rgb( 217, 254, 254);
+
+        
+  }
+  body{
+    background-color: rgb( 217, 254, 254);
+    background-size: 30px 30px;
+    background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+
   }
   a:hover {
     color: #747bff;
+    /* color: rgb(120, 183, 233); */
   }
   button {
     background-color: #f9f9f9;
+    color: #213547;
+    border: 2px solid black;
+  }
+
+  .flashcard-container {
+    border: 2px solid black;
   }
 }
