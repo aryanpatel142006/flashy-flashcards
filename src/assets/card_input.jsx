@@ -41,7 +41,27 @@ const flashcards = [
   { "question": "What is 'big' in Japanese?", "answer": "おおきい (ookii)" },
   { "question": "What is 'small' in Japanese?", "answer": "ちいさい (chiisai)" },
   { "question": "What is 'fast' in Japanese?", "answer": "はやい (hayai)" },
-  { "question": "What is 'slow' in Japanese?", "answer": "おそい (osoi)" }
+  { "question": "What is 'slow' in Japanese?", "answer": "おそい (osoi)" },
+  { "question": "What is 'car' in Japanese?", "answer": "くるま (kuruma)" },
+  { "question": "What is 'bike' in Japanese?", "answer": "じてんしゃ (jitensha)" },
+  { "question": "What is 'train station' in Japanese?", "answer": "えき (eki)" },
+  { "question": "What is 'teacher' in Japanese?", "answer": "せんせい (sensei)" },
+  { "question": "What is 'student' in Japanese?", "answer": "がくせい (gakusei)" },
+  { "question": "What is 'language' in Japanese?", "answer": "ことば (kotoba)" },
+  { "question": "What is 'music' in Japanese?", "answer": "おんがく (ongaku)" },
+  { "question": "What is 'movie' in Japanese?", "answer": "えいが (eiga)" },
+  { "question": "What is 'game' in Japanese?", "answer": "ゲーム (geemu)" },
+  { "question": "What is 'work' in Japanese?", "answer": "しごと (shigoto)" },
+  { "question": "What is 'holiday' in Japanese?", "answer": "きゅうじつ (kyuujitsu)" },
+  { "question": "What is 'week' in Japanese?", "answer": "しゅう (shuu)" },
+  { "question": "What is 'today' in Japanese?", "answer": "きょう (kyou)" },
+  { "question": "What is 'tomorrow' in Japanese?", "answer": "あした (ashita)" },
+  { "question": "What is 'yesterday' in Japanese?", "answer": "きのう (kinou)" },
+  { "question": "What is 'cold' in Japanese?", "answer": "さむい (samui)" },
+  { "question": "What is 'hot' in Japanese?", "answer": "あつい (atsui)" },
+  { "question": "What is 'happy' in Japanese?", "answer": "うれしい (ureshii)" },
+  { "question": "What is 'sad' in Japanese?", "answer": "かなしい (kanashii)" },
+  { "question": "What is 'angry' in Japanese?", "answer": "おこっている (okotte iru)" },
 ];
 
 export default flashcards
