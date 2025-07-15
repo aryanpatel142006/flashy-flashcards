@@ -4,6 +4,7 @@ import Card from './components/card'
 import flashcards from "./assets/card_input.jsx"
 import them from "./assets/theme_icon.png"
 import flashyy from "/src/assets/flashy.png"
+import { Analytics } from "@vercel/analytics/next"
 
 
 function App() {
@@ -160,7 +161,7 @@ function App() {
 
   return (
     <div className='App'>
-      
+      <Analytics />
       <div className="navbar">
 
         <div className="theme">
